@@ -5,9 +5,10 @@
     - imprima até a metade do vetor
     - Guarde o valores pares e impares em um outros vetores (sem o valores 0) e imprima*/
 
-int[] vetorNumeros = new int[10];
 int qtdPares = 0, qtdImpares = 0;
 int i = 0, contadorPar = 0, contadorImpar = 0, maximo = 5;
+int[] vetorNumeros = new int[maximo];
+
 
 do
 {
